@@ -1,0 +1,29 @@
+nav .paginate {
+  display: flex;
+  flex-direction: row;
+  max-width: 300px;
+  margin: auto;
+}
+
+.paginate button {
+  margin: 5px;
+  border-radius: 2px;
+  background-color: rgb(88, 122, 149);
+  padding: 5px;
+}
+
+.paginate button:hover {
+  background-color: rgb(128, 154, 176);
+}
+
+.paginate a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btn {
+  width: 100px;
+  margin: 5px;
+  border-radius: 3px;
+}
